@@ -50,8 +50,7 @@ function draw() {
 //  and adds in userchoice and then check the following cases
 //  given in switch staements
 
-function game(userchoice) {                             
-    const computerchoice = getcomputerchoice();         
+function game(userchoice) {                                      
     const computerchoice = getcomputerchoice();
     switch (userchoice + computerchoice) {                           
         case "rs":
